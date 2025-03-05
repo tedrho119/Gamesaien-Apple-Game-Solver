@@ -5,3 +5,4 @@ https://en.gamesaien.com/game/fruit_box/
 
 test.py is a algorithm based code that solves this game fast as possible.
 Simply install latest chromedriver and run the program, it will open a website with the game and solve it for you
+In terminal type "python test.py"
