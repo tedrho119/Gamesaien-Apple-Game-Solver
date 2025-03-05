@@ -112,17 +112,15 @@ start_button.click()
 print("Clicked the '🍋 게임 시작' button.")
 time.sleep(3)
 
-#print("Move your mouse to the top-left corner of the grid and wait 5 seconds...")
-top_left_x, top_left_y = 788, 455
-#time.sleep(5)
-#top_left_x, top_left_y = pyautogui.position()
-#print(f"Top-left corner: ({top_left_x}, {top_left_y})")
+print("Move your mouse to the top-left corner of the grid and wait 5 seconds...")
+time.sleep(5)
+top_left_x, top_left_y = pyautogui.position()
+print(f"Top-left corner: ({top_left_x}, {top_left_y})")
 
-#print("Move your mouse to the bottom-right corner of the grid and wait 5 seconds...")
-bottom_right_x, bottom_right_y = 1402, 812
-#time.sleep(5)
-#bottom_right_x, bottom_right_y = pyautogui.position()
-#print(f"Bottom-right corner: ({bottom_right_x}, {bottom_right_y})")
+print("Move your mouse to the bottom-right corner of the grid and wait 5 seconds...")
+time.sleep(5)
+bottom_right_x, bottom_right_y = pyautogui.position()
+print(f"Bottom-right corner: ({bottom_right_x}, {bottom_right_y})")
 
 cell_width = (bottom_right_x - top_left_x) / 17
 cell_height = (bottom_right_y - top_left_y) / 10
